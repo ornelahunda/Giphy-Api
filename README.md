@@ -1,3 +1,4 @@
 # Giphy-Api
 
-The theme of this project are going to be giphy emotions.
+The theme of this project is  going to be  about giphy emotions.
+

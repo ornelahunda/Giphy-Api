@@ -1,0 +1,19 @@
+body{
+    background: url("../images/img1.jpg");
+   margin-bottom: -500px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+}
+ 
+.page-header{
+    
+}
+#footer {
+	clear: both;
+	margin-top: 40px;
+	position: center;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
