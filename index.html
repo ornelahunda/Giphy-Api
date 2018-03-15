@@ -30,7 +30,7 @@
     </div>
 
     <!-- Main Container  -->
-    <div class="container">
+    <div class="container-fluid">
 
         <div class="row">
             
@@ -41,11 +41,12 @@
                     </h2>
                     <div class="form-group">
                         <label for="emotion-input">How do you feel?</label>
-                        <input type="text" id="-input">
+                        <input type="text" id="emotion-input">
                     </div>
 
-                    <input id="addButton" type="submit" value="Add your emotion" class="btn btn-primary">
-                    <input id="removeButton" type="submit" value="Remove last emotion" class="btn btn-primary">
+                    <button id="addButton" type="submit" class="btn btn-primary">Add your emotion
+                    </button>
+                        <button id="removeButton" type="button" class="btn btn-primary">Remove last emotion </button> 
                 </form>
             </div>
 
@@ -61,7 +62,7 @@
 
 
             <!-- Copyright Footer -->
-            <footer>
+            <footer class="text-center">
         <div id="footer" class="container">
             <h4 id="copyright">&copy; Copyright Ornela Hunda</h4>
         </div>
